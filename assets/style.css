@@ -11,32 +11,31 @@ body {
   background: var(--background);
   color: var(--text);
   font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
-  font-size: 15px;
-  line-height: 1.8;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: -.025em;
   -webkit-font-smoothing: antialiased;
 }
-main { max-width: 820px; margin: 56px auto; padding: 0 28px; overflow-wrap: break-word; }
-.prompt { display: flex; flex-wrap: wrap; gap: 0 .6ch; margin: 0 0 24px; }
+main { max-width: 780px; margin: 32px auto; padding: 0 24px; overflow-wrap: break-word; }
+.prompt { display: flex; flex-wrap: wrap; gap: 0 .5ch; margin: 0 0 16px; }
 .host { color: var(--green); }
 .command { color: var(--text); }
-h1 { font-size: inherit; line-height: inherit; font-weight: 600; margin: 0 0 12px; color: #eef0f2; }
-h2 { margin: 36px 0 12px; font-size: inherit; font-weight: 400; line-height: inherit; color: var(--green); }
+h1 { font-size: inherit; line-height: inherit; font-weight: 600; margin: 0 0 8px; color: #eef0f2; }
+h2 { margin: 24px 0 8px; font-size: inherit; font-weight: 400; line-height: inherit; color: var(--green); }
 h2::before { content: "$ "; color: var(--muted); }
-p { margin: 0 0 16px; }
+p { margin: 0 0 10px; }
 strong { font-weight: 600; color: #eef0f2; }
 a { color: var(--green); text-decoration: underline; text-decoration-color: #5e7f68; text-underline-offset: 4px; }
 a:hover { color: #c4e8ce; text-decoration-color: currentColor; }
 a:focus-visible { outline: 2px solid var(--green); outline-offset: 4px; }
-ul, ol { margin: 0 0 24px; padding-left: 3ch; }
-li { padding-left: .5ch; margin: 0 0 12px; }
+ul, ol { margin: 0 0 16px; padding-left: 3ch; }
+li { padding-left: .5ch; margin: 0 0 8px; }
 li::marker { color: var(--muted); }
 li:last-child { margin-bottom: 0; }
 li p { margin-bottom: 8px; }
-.idle { margin: 36px 0 0; color: var(--green); }
+.idle { margin: 24px 0 0; color: var(--green); }
 .cursor { display: inline-block; height: 1em; width: .6em; background: var(--green); vertical-align: -.12em; }
 ::selection { color: var(--background); background: var(--green); }
 @media (max-width: 600px) {
-  body { font-size: 14px; line-height: 1.85; }
-  main { margin: 28px auto; padding: 0 20px; }
-  h2 { margin-top: 28px; }
+  main { margin: 20px auto; padding: 0 16px; }
 }
