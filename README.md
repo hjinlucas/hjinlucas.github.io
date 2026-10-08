@@ -1,6 +1,6 @@
 # Lucas Jin — personal website
 
-A plain bilingual text page hosted at https://hjinlucas.github.io.
+A plain bilingual text page hosted at https://luc3xhj.github.io.
 
 - `index.html`: English introduction.
 - `zh/index.html`: Chinese introduction.

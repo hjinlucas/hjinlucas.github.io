@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://hjinlucas.github.io/sitemap.xml
+Sitemap: https://luc3xhj.github.io/sitemap.xml
